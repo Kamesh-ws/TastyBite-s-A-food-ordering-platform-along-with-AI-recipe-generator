@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @apply bg-white text-[#000000]
+}
+
+.logo {
+  font-family: "Lilita One", sans-serif;
+  @apply text-3xl text-[#fc802e]
+}
+
+.profileInput {
+  @apply md:p-2 p-1 w-full border-[1px] border-gray-200 rounded-md text-base outline-none
+}
+
+.inputBox {
+  @apply md:p-2 p-1 sm:w-[20rem] w-full border-[1px] border-gray-200 rounded-md text-base outline-none
+}
+
+.button {
+  @apply md:p-2 p-1 w-full sm:w-[20rem] rounded-md hover:shadow-lg text-white bg-[#fc802e] outline-none text-center font-bold
+}
+
+.inputBox1 {
+  @apply md:p-2 p-1 w-[20rem] md:w-full border-[1px] border-gray-200 rounded-md text-base outline-none
+}
+
+.button1 {
+  @apply md:p-2 p-1 w-24 md:w-32 rounded-md hover:shadow-lg text-white bg-[#fc802e] outline-none text-center
+}
+
+.button2 {
+  @apply md:p-2 p-1 w-24 md:w-64 rounded-md hover:shadow-lg text-white bg-[#fc802e] outline-none text-center
+}
+
+.otpInput {
+  @apply md:p-2 p-1 text-center border-[1px] border-gray-200 rounded-md text-base outline-none md:w-10 w-8 md:h-12 h-10;
+}
+
+.form-container {
+  @apply flex flex-col bg-white px-8 py-6 gap-4 rounded-md items-center shadow-xl w-[90%] sm:w-max lg:w-max ease-in duration-300 backdrop:blur-md
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* Add this CSS in your CSS file */
+.loader {
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
