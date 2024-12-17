@@ -6,7 +6,7 @@ Key Highlights:
 ✅ Location-Based Restaurant Discovery: Explore nearby restaurants effortlessly.
 ✅ Customizable Menus: Restaurants can update and personalize their offerings, including auto-deletion of special items after 12 hours.
 ✅ Secure Payments: Integrated Stripe API for hassle-free transactions.
-✅ User Authentication: Secured with JWT for login and password resets (with OTP support via Nodemailer) and Google OAuth 2.0 for convenience.
+✅ User Authentication: Secured with JWT for login and password resets (with OTP support via Nodemailer) for convenience.
 ✅Advanced Order Status Management: Restaurants can update order statuses, and users can track their purchases conveniently.
 ✅Real-Time Order Tracking: Know your food's journey from kitchen to door.
 ✅ AI-Powered Recipe Suggestions: Leveraging GEMini API for personalized recommendations.
